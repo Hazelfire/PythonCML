@@ -1,0 +1,15 @@
+<html>
+   <script>
+      function getUrl() {
+         var base = "https://projecteuler.net/problem=";
+         var amount = 552; //Amount of problems at 21:00 31/05/2016
+         var num = Math.random()*amount;
+         var url = base + num; //Concetenate...
+
+         document.getElementById("warning").innerHTML = "<br>Chances are, you have popups blocked and there is a notification in the top right.";
+         return url;
+      }
+   </script>
+   <button onclick="window.open(getUrl());">CLICK ME!</button>
+   <a id="warning"></a>
+</html>
