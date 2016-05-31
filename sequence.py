@@ -25,3 +25,10 @@ def numbersUnderWhich(number, requirements):
             numberSet.append(i)
         i+=1
     return numberSet
+
+# Returns the sum of all the elements in a sequence
+def listSum(sequence):
+    total = 0
+    for element in sequence:
+        total+= element
+    return total
