@@ -1,5 +1,5 @@
 # PythonCML
-A simple math library for pesky programming problems, like Project Euler
+A simple math library for pesky programming problems, like Project Euler.
 
 
 ##How to get started?
@@ -16,6 +16,5 @@ Currently as part of PythonCML:
 * Geometry & Trigonometry Functions
 
 PythonCML was made for NSW ProgComp, it was tested with problems from the Euler Project.
-Find a link to a random Euler project below
 
-[Go to random euler project problem](http://hazelfire.github.io/PythonCML/)
+[__Go to a random Euler Project Problem__](http://hazelfire.github.io/PythonCML/)
