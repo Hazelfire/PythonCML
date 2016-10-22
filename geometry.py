@@ -2,8 +2,14 @@
 
 import math
 
+def ps_area(w, h):
+    return (w * h)
+
+def point_distance(x1, y1, x2, y2):
+    return math.sqrt(math.pow(y2-y1), math.pow(x2-x1))
+
 def aabb_area(x1, y1, x2, y2):
-    return (y2-y1) * (x2-x1)
+    return ps_area(y2-y1, x2-x1)
 
 def toCartesian_x(dist,deg):
     return float(math.sin(math.radians(deg))*dist)
